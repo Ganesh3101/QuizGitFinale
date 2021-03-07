@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizgitfinale">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_brainular"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_brainular"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizGitFinale">
+        <activity android:name=".ScoreActivity"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectionNature"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionFilm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionGk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionComputer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionVideoGames"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionAnime"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectionMusic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gk_easy_10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gk_20easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gk_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gk_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gk_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gk_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Film_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Film_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Film_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Film_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Film_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Film_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoGames_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoGames_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoGames_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoGames_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoGames_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoGames_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Anime_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Anime_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Anime_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Anime_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Anime_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Anime_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nature_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nature_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nature_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nature_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nature_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nature_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".history_10_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".history_20_easy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".history_10_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".history_20_medium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".history_10_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".history_20_hard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
